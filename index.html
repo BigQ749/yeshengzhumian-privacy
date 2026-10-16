@@ -4,8 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="theme-color" content="#f4f6f4" />
-  <meta name="description" content="夜声助眠隐私政策：说明本机设置、用户导入音乐、锁屏媒体卡及数据删除方式。" />
-  <title>夜声助眠 · 隐私政策</title>
+  <meta name="description" content="夜声助眠隐私政策：说明鸿蒙版和 Android 版的本机数据、权限、音频处理及删除方式。" />
+  <title>夜声助眠 · 隐私政策（鸿蒙与 Android）</title>
   <style>
     :root{color-scheme:light;--ink:#24332e;--muted:#677872;--soft:#82918a;--line:#e4ebe6;--accent:#477866;--paper:#f4f6f4;--white:#fff}
     *{box-sizing:border-box}
@@ -46,11 +46,11 @@
   <main>
     <span class="brand"><span class="brand-mark" aria-hidden="true"></span>夜声助眠 · 隐私政策</span>
     <h1>隐私政策</h1>
-    <p class="lead">这份说明会告诉你，夜声助眠在本机使用哪些数据、为什么使用，以及如何删除。</p>
-    <div class="meta"><span>开发者：齐赛军</span><span>应用包名：com.qisaijun.yeshengzhumian.hmos</span><span>更新日期：2026 年 9 月 28 日</span></div>
+    <p class="lead">这份说明会告诉你，夜声助眠在鸿蒙版和 Android 版中处理哪些本机数据、申请哪些权限，以及如何删除。</p>
+    <div class="meta"><span>开发者：齐赛军</span><span>鸿蒙包名：com.yesheng.app.hmos</span><span>Android 包名：com.yesheng.app</span><span>鸿蒙版更新：2026 年 9 月 28 日</span><span>Android 2.0.11 更新：2026 年 10 月 16 日</span></div>
     <article class="card">
       <h2>一、适用范围与基本原则</h2>
-      <p>夜声助眠是一款用于播放环境声和你主动导入的本机音乐的 HarmonyOS 应用。应用无需注册账号，不提供在线曲库。当前版本没有自建账号系统、广告、个性化推荐、统计分析或消息推送服务，也未集成第三方统计、广告或登录 SDK。</p>
+      <p>夜声助眠提供鸿蒙版和 Android 版，用于播放应用内环境声、管理播放组合和定时，并支持你主动选择导入本机音频。两个版本均无需注册账号、不提供在线曲库，也没有自建账号系统、广告、个性化推荐、统计分析或消息推送服务；平台权限差异见本页相应章节。</p>
       <p>应用内声景素材随安装包提供。你的播放设置、保存的声景和导入音乐副本保存在当前设备的应用私有空间；应用不会把这些内容上传到开发者服务器。</p>
 
       <h2>二、应用会处理哪些信息</h2>
@@ -61,7 +61,7 @@
       </ul>
       <p>上述处理发生在本机，用于实现声音播放、播放状态恢复、定时关闭、锁屏控制和曲目管理。应用不读取通讯录、定位、照片、麦克风录音或通话信息，也不建立跨应用用户画像。</p>
 
-      <h2>三、权限与系统服务</h2>
+      <h2>三、鸿蒙版权限与系统服务</h2>
       <ul>
         <li><strong>后台音频运行（KEEP_BACKGROUND_RUNNING）：</strong>仅在你主动开始播放时，用于支持息屏后的连续音频播放。暂停、停止或定时结束后，应用会停止相应的后台音频任务。</li>
         <li><strong>系统音频选择器：</strong>仅在你点击添加音乐后打开。你可以自行取消或选择文件；应用不申请读取全部媒体文件的权限。</li>
@@ -69,7 +69,7 @@
       </ul>
       <p>应用包当前仅声明后台持续运行权限，没有声明网络、通讯录、位置、相机、麦克风或短信等权限。文件选择和系统媒体控制由 HarmonyOS 提供的界面与服务完成。</p>
 
-      <h2>四、保存期限与删除方式</h2>
+      <h2>四、鸿蒙版保存期限与删除方式</h2>
       <p>播放偏好和自选声景会保留在本机，直至你清除应用数据或卸载应用。导入音乐副本会保留到你在“声音 → 我的音乐”中将其移除，或清除应用数据、卸载应用为止。</p>
       <p>在应用内移除曲目只删除夜声助眠保存的副本，不会删除设备中的原始音频。你也可以通过 HarmonyOS 系统设置清除夜声助眠的应用数据，或卸载应用，以删除应用保存的设置、曲目记录和音频副本。</p>
 
@@ -77,7 +77,8 @@
       <p>开发者不会通过夜声助眠收集或接收上述本机内容，不会向第三方出售、共享、转让或公开披露这些内容。应用当前没有自建服务器，也没有第三方业务 SDK。</p>
       <p>隐私政策网页由 GitHub Pages 提供静态托管。你打开网页时，浏览器会向 GitHub 请求页面内容；GitHub 可能依其<a href="https://docs.github.com/zh/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">隐私声明</a>处理网页请求所需的技术信息。夜声助眠应用不会把本机设置或音频文件发送给该网页。</p>
 
-      <h2>六、你的权利</h2>
+<h2 id="rights">六、你的权利</h2>
+      <p data-policy-rights-update="2026-10-16"><strong>个人信息权利与投诉：</strong>你可在应用内查阅已保存的信息，并使用应用提供的修改、删除功能行使更正和删除权；如应用提供导出或复制功能，可用来复制信息。对于仅保存在本机的记录，开发者没有服务器副本，无法远程读取、复制或代为删除。撤回同意的入口见本政策相应说明；撤回不会自动删除已保存在本机的记录。对可由开发者处理的查阅、复制请求或隐私投诉，请联系 <a href="mailto:saijunqi@gmail.com">saijunqi@gmail.com</a>，或通过华为应用市场的开发者联系方式提交；我们将在收到请求后15个工作日内答复。</p>
       <p>你可以在应用中查看和调整播放设置、声景与导入曲目，并移除导入音频副本。由于应用不把这些内容上传至开发者服务器，开发者没有在线副本可供查询或删除。你也可以通过清除应用数据或卸载应用删除本机保存内容。</p>
       <p>如需咨询本政策或反馈个人信息处理问题，可联系开发者：齐赛军，邮箱 <a href="mailto:saijunqi@gmail.com">saijunqi@gmail.com</a>。我们会核实请求后，在适用法律要求的范围内予以答复。</p>
 
@@ -87,6 +88,12 @@
       <h2>八、政策更新</h2>
       <p>当应用功能、数据处理方式或适用要求发生变化时，我们会更新本页面并修改更新日期。若变更涉及个人信息处理方式，我们会按照适用要求在相关处理开始前通过应用内显著方式提示你。</p>
       <div class="callout">简单来说：你选择的声音和设置留在这台设备；添加音乐时只处理你点选的文件；应用不将这些内容上传到开发者服务器。</div>
+
+      <h2>九、Android 版补充（2.0.11 · com.yesheng.app）</h2>
+      <p>本节适用于 Android 包。Android 版把同意状态和通知权限提示状态保存在 Android SharedPreferences；声景组合、音量、定时、收藏及页面状态保存在 WebView localStorage；你通过系统文件选择器主动导入的音频副本及曲名、格式、大小等管理信息保存在 WebView IndexedDB 的应用私有数据区。播放中的本机通知用于显示播放状态。</p>
+      <p>AndroidManifest 声明 <code>WAKE_LOCK</code>、<code>FOREGROUND_SERVICE</code>、<code>FOREGROUND_SERVICE_MEDIA_PLAYBACK</code> 和 <code>POST_NOTIFICATIONS</code>。唤醒锁和前台媒体播放服务仅在主动播放期间用于息屏播放；播放停止或定时结束后释放。Android 13 及以上会在你开始播放时说明用途并请求通知权限，用于显示播放通知；拒绝后仍可在前台播放，通知和后台可用性受系统设置影响。</p>
+      <p>Android 版使用系统文档选择器访问你主动点选的音频文件，不申请读取全部存储空间。应用不声明 <code>INTERNET</code>，也不使用相机、麦克风、定位、通讯录或传感器；播放、音频导入和本机设置不依赖网络。外部网页只会在你主动点击链接时由系统浏览器打开。</p>
+      <p>Android 版的设置和导入音频副本保留到你移除曲目、清除应用数据或卸载应用为止。应用内移除曲目只删除本应用保存的副本，不删除设备中的原音频。系统通知是否显示、前台服务和息屏播放是否可用，受 Android 版本、通知授权及设备设置影响。</p>
     </article>
     <p class="footer">夜声助眠 · 开发者：齐赛军 · 联系邮箱：<a href="mailto:saijunqi@gmail.com">saijunqi@gmail.com</a></p>
   </main>
